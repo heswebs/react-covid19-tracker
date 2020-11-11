@@ -1,0 +1,12 @@
+.chart{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.chart__wrapper {
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}

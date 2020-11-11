@@ -1,0 +1,33 @@
+.cards {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.cards__item {
+    flex-basis:200px;
+    border:1px solid #f3f3f3;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding:15px;
+    box-sizing: border-box;
+    
+}
+
+.cards__item--infected {
+    border-bottom:8px solid royalblue;
+}
+
+.cards__item--recovered {
+    border-bottom:8px solid lightgreen;
+}
+.cards__item--death {
+    border-bottom:8px solid pink;
+}
+
+.cards__text {
+    font-size:0.8em;
+}
